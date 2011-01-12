@@ -1,0 +1,8 @@
+Just a stripped down source of the Canabalt flixel iOS source.  All Canabalt specific stuff has been removed (as far as I know, let me know if there's still some left..)
+Currently just starts in landscape mode, and displays HelloWorld.
+
+To use it as a template drop the whole folder into Developers/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application folder
+
+Hope this can help some people get started with Flixel on iPhone.
+
+Currently only tested with the iPhone Simulator!
