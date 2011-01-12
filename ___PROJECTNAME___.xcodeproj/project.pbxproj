@@ -11,8 +11,8 @@
 		07542F6C1183639E004B03B0 /* FlixelFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 07542F6B1183639E004B03B0 /* FlixelFont.m */; };
 		075430BF11867D3D004B03B0 /* FlxTileblock.m in Sources */ = {isa = PBXBuildFile; fileRef = 075430BE11867D3D004B03B0 /* FlxTileblock.m */; };
 		075430E511873B5D004B03B0 /* FlixelAPTBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 075430E411873B5D004B03B0 /* FlixelAPTBindings.m */; };
-		076E6DAD1180D86B0084ECBC /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DAA1180D86B0084ECBC /* HelloWorld.m */; };
-		076E6DAE1180D86B0084ECBC /* HelloState.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DAC1180D86B0084ECBC /* HelloState.m */; };
+		076E6DAD1180D86B0084ECBC /* ___PROJECTNAME___.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DAA1180D86B0084ECBC /* ___PROJECTNAME___.m */; };
+		076E6DAE1180D86B0084ECBC /* ___PROJECTNAME___State.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DAC1180D86B0084ECBC /* ___PROJECTNAME___State.m */; };
 		076E6DE01180E00D0084ECBC /* FlashFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DC01180E00D0084ECBC /* FlashFunction.m */; };
 		076E6DE11180E00D0084ECBC /* FlashObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DC11180E00D0084ECBC /* FlashObject.m */; };
 		076E6DE21180E00D0084ECBC /* FlashPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 076E6DC21180E00D0084ECBC /* FlashPoint.m */; };
@@ -63,10 +63,10 @@
 		07542F6B1183639E004B03B0 /* FlixelFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlixelFont.m; sourceTree = "<group>"; };
 		075430BE11867D3D004B03B0 /* FlxTileblock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlxTileblock.m; sourceTree = "<group>"; };
 		075430E411873B5D004B03B0 /* FlixelAPTBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlixelAPTBindings.m; sourceTree = "<group>"; };
-		076E6DA91180D86B0084ECBC /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloWorld.h; path = src/HelloWorld.h; sourceTree = SOURCE_ROOT; };
-		076E6DAA1180D86B0084ECBC /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloWorld.m; path = src/HelloWorld.m; sourceTree = SOURCE_ROOT; };
-		076E6DAB1180D86B0084ECBC /* HelloState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloState.h; path = src/HelloState.h; sourceTree = SOURCE_ROOT; };
-		076E6DAC1180D86B0084ECBC /* HelloState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloState.m; path = src/HelloState.m; sourceTree = SOURCE_ROOT; };
+		076E6DA91180D86B0084ECBC /* ___PROJECTNAME___.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "___PROJECTNAME___.h"; path = "src/___PROJECTNAME___.h"; sourceTree = SOURCE_ROOT; };
+		076E6DAA1180D86B0084ECBC /* ___PROJECTNAME___.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "___PROJECTNAME___.m"; path = "src/___PROJECTNAME___.m"; sourceTree = SOURCE_ROOT; };
+		076E6DAB1180D86B0084ECBC /* ___PROJECTNAME___State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "___PROJECTNAME___State.h"; path = "src/___PROJECTNAME___State.h"; sourceTree = SOURCE_ROOT; };
+		076E6DAC1180D86B0084ECBC /* ___PROJECTNAME___State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "___PROJECTNAME___State.m"; path = "src/___PROJECTNAME___State.m"; sourceTree = SOURCE_ROOT; };
 		076E6DC01180E00D0084ECBC /* FlashFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashFunction.m; sourceTree = "<group>"; };
 		076E6DC11180E00D0084ECBC /* FlashObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashObject.m; sourceTree = "<group>"; };
 		076E6DC21180E00D0084ECBC /* FlashPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashPoint.m; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "___PROJECTNAME___.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -147,10 +147,10 @@
 		076E6DA81180D85D0084ECBC /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				076E6DA91180D86B0084ECBC /* HelloWorld.h */,
-				076E6DAA1180D86B0084ECBC /* HelloWorld.m */,
-				076E6DAB1180D86B0084ECBC /* HelloState.h */,
-				076E6DAC1180D86B0084ECBC /* HelloState.m */,
+				076E6DA91180D86B0084ECBC /* ___PROJECTNAME___.h */,
+				076E6DAA1180D86B0084ECBC /* ___PROJECTNAME___.m */,
+				076E6DAB1180D86B0084ECBC /* ___PROJECTNAME___State.h */,
+				076E6DAC1180D86B0084ECBC /* ___PROJECTNAME___State.m */,
 			);
 			name = HelloWorld;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* HelloWorld.app */,
+				1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,9 +292,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* HelloWorld */ = {
+		1D6058900D05DD3D006BFB54 /* FlixelBasic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlixelBasic" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -304,9 +304,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = FlixelBasic;
 			productName = Canabalt;
-			productReference = 1D6058910D05DD3D006BFB54 /* HelloWorld.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* ___PROJECTNAME___.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +314,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "___PROJECTNAME___" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -328,7 +328,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* HelloWorld */,
+				1D6058900D05DD3D006BFB54 /* FlixelBasic */,
 			);
 		};
 /* End PBXProject section */
@@ -351,8 +351,8 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
-				076E6DAD1180D86B0084ECBC /* HelloWorld.m in Sources */,
-				076E6DAE1180D86B0084ECBC /* HelloState.m in Sources */,
+				076E6DAD1180D86B0084ECBC /* ___PROJECTNAME___.m in Sources */,
+				076E6DAE1180D86B0084ECBC /* ___PROJECTNAME___State.m in Sources */,
 				076E6DE01180E00D0084ECBC /* FlashFunction.m in Sources */,
 				076E6DE11180E00D0084ECBC /* FlashObject.m in Sources */,
 				076E6DE21180E00D0084ECBC /* FlashPoint.m in Sources */,
@@ -430,7 +430,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
-				PRODUCT_NAME = Canabalt;
+				PRODUCT_NAME = "___PROJECTNAME___";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "739A9136-0A9B-406F-8D3B-159EA2D34F05";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,7 +454,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
-				PRODUCT_NAME = HelloWorld;
+				PRODUCT_NAME = "___PROJECTNAME___";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,7 +476,7 @@
 				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/flixel-ios/Headers\"";
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
-				PRODUCT_NAME = Canabalt;
+				PRODUCT_NAME = "___PROJECTNAME___";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4754EFE-9CDA-4260-B87B-1BBEBEB4A168";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -533,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlixelBasic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloWorld" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "___PROJECTNAME___" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

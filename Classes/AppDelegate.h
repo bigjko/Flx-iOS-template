@@ -16,11 +16,11 @@
 #import <UIKit/UIKit.h>
 #import <Flixel/Flixel.h>
 
-@class HelloWorld;
+@class ___PROJECTNAME___;
 
 @interface AppDelegate : NSObject <UIApplicationDelegate>
 {
-  HelloWorld * game;
+  ___PROJECTNAME___ * game;
 }
 
 @end

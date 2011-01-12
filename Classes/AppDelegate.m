@@ -14,7 +14,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HelloWorld.h"
+#import "___PROJECTNAME___.h"
 
 #import <SemiSecret/SemiSecretTexture.h>
 
@@ -59,7 +59,7 @@ void preloadTextureAtlases()
   [application setStatusBarOrientation:UIInterfaceOrientationLandscapeRight
 	       animated:NO];
 
-  game = [[HelloWorld alloc] init];
+  game = [[___PROJECTNAME___ alloc] init];
 
   //preload textures here, now that opengl stuff should be created
   //preloadTextureAtlases();

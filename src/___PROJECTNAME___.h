@@ -13,7 +13,7 @@
 // THE SOFTWARE.
 //
 
-@interface HelloWorld : FlxGame
+@interface ___PROJECTNAME___: FlxGame
 {
 }
 - (id) init;

@@ -1,5 +1,5 @@
 //
-//  Canabalt.m
+//  MenuState.m
 //  Canabalt
 //
 //  Copyright Semi Secret Software 2009-2010. All rights reserved.
@@ -13,24 +13,52 @@
 // THE SOFTWARE.
 //
 
-#import "HelloWorld.h"
+#import "___PROJECTNAME___State.h"
 
-@implementation HelloWorld
+
+
+@implementation ___PROJECTNAME___State
 
 - (id) init
 {
-  BOOL tbZoom = NO;
-  if (FlxG.iPad || FlxG.retinaDisplay)
-    tbZoom = YES;
-  if ((self = [super initWithOrientation:FlxGameOrientationLandscape
-				   state:@"HelloState"
-				    zoom:1.0
-		    useTextureBufferZoom:tbZoom
-			       modelZoom:1.0])) {
-    if (FlxG.retinaDisplay)
-      self.frameInterval = 1;
+  if ((self = [super init])) {
+    self.bgColor = 0xff35353d;
   }
   return self;
 }
 
+- (void) create
+{
+  helloText = [FlxText textWithWidth:FlxG.width
+								text:@"HelloWorld"
+								font:nil
+								size:26.0];
+  helloText.color = 0xffffffff;
+  helloText.alignment = @"center";
+  helloText.x = 0;
+  helloText.y = 15;
+  [self add:helloText];
+
+    
+}
+
+- (void) dealloc
+{
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+
+  [super dealloc];
+}
+
+
+- (void) update
+{
+  
+  
+  [super update];
+
+  
+}
+
+
 @end
+

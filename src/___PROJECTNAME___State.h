@@ -14,7 +14,7 @@
 //
 
 
-@interface HelloState : FlxState
+@interface ___PROJECTNAME___State : FlxState
 {
 
   FlxText * helloText;
