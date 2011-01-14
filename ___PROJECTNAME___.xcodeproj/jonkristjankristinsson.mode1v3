@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,9 +276,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>13</integer>
-									<integer>0</integer>
+									<integer>19</integer>
+									<integer>18</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -315,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Info.plist</string>
+								<string>___PROJECTNAME___.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Info.plist</string>
+										<string>___PROJECTNAME___.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D39E632112DDB58400C8155C</string>
+										<string>D335C6D012E0C07500B15A87</string>
 										<key>history</key>
 										<array>
 											<string>D3C3958A12DCF8C200159CB2</string>
@@ -337,7 +338,6 @@
 											<string>D369477312DD2CFB00A78A9B</string>
 											<string>D369477412DD2CFB00A78A9B</string>
 											<string>D369477512DD2CFB00A78A9B</string>
-											<string>D369478412DD2E1400A78A9B</string>
 											<string>D369478512DD2E1400A78A9B</string>
 											<string>D369478612DD2E1400A78A9B</string>
 											<string>D384759C12DD336A0009EC40</string>
@@ -346,7 +346,8 @@
 											<string>D384759F12DD336A0009EC40</string>
 											<string>D38475A012DD336A0009EC40</string>
 											<string>D3898EC312DD3B170033A337</string>
-											<string>D39E632012DDB58400C8155C</string>
+											<string>D335C6CE12E0C07500B15A87</string>
+											<string>D335C6CF12E0C07500B15A87</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,14 +359,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {525, 340}}</string>
+								<string>{{0, 0}, {525, 331}}</string>
 								<key>RubberWindowFrame</key>
 								<string>205 178 842 627 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>340pt</string>
+							<string>331pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -378,14 +379,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 345}, {525, 241}}</string>
+								<string>{{0, 336}, {525, 250}}</string>
 								<key>RubberWindowFrame</key>
 								<string>205 178 842 627 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>241pt</string>
+							<string>250pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -404,9 +405,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D39E632212DDB58400C8155C</string>
+				<string>D335C6C712E0BDF200B15A87</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D39E632312DDB58400C8155C</string>
+				<string>D335C6C812E0BDF200B15A87</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -545,7 +546,7 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>D3C3954E12DCEB0700159CB2</string>
-		<string>/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Flixel/HelloWorld/HelloWorld.xcodeproj</string>
+		<string>/users/jonkristjankristinsson/Flx-iOs-template/___PROJECTNAME___.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>205 178 842 627 0 0 1440 878 </string>
@@ -625,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D3C3954E12DCEB0700159CB2</string>
-				<string>D39E632412DDB58400C8155C</string>
+				<string>D335C6C912E0BDF200B15A87</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
