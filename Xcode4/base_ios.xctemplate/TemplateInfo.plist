@@ -47,6 +47,7 @@
 				<string>UIKit</string>
 				<string>Foundation</string>
 				<string>CoreGraphics</string>
+                <string>CoreAudio</string>
 			</array>
 			<key>SharedSettings</key>
 			<dict>
