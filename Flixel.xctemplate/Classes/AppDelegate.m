@@ -1,6 +1,6 @@
 //
-//  CanabaltAppDelegate.m
-//  Canabalt
+//  AppDelegate.m
+//  ___PROJECTNAME___
 //
 //  Copyright Semi Secret Software 2009-2010. All rights reserved.
 //
@@ -52,8 +52,6 @@ void preloadTextureAtlases()
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  
-  //in canabalt, we never want linear filtering (not even on ipad)
   [SemiSecretTexture setTextureFilteringMode:SSTextureFilteringNearest];
   
   [application setStatusBarOrientation:UIInterfaceOrientationLandscapeRight

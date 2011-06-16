@@ -2,122 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Identifier</key>
-	<string>com.flixel.base</string>
-	<key>Kind</key>
-	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Platforms</key>
+	<key>Ancestors</key>
 	<array>
-		<string>com.apple.platform.iphoneos</string>
-	</array>
-	<key>Options</key>
-	<array>
-		<dict>
-			<key>Description</key>
-			<string>Your new product&apos;s name.</string>
-			<key>EmptyReplacement</key>
-			<string>ProductName</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Name</key>
-			<string>Product Name</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-		<dict>
-			<key>Description</key>
-			<string>Your company&apos;s bundle identifier prefix.</string>
-			<key>EmptyReplacement</key>
-			<string>com.yourcompany</string>
-			<key>Identifier</key>
-			<string>bundleIdentifierPrefix</string>
-			<key>Name</key>
-			<string>Company Identifier</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-        <dict>
-			<key>Default</key>
-			<string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
-			<key>Description</key>
-			<string>Your new product&apos;s bundle identifier.</string>
-			<key>Identifier</key>
-			<string>bundleIdentifier</string>
-			<key>Name</key>
-			<string>Bundle Identifier</string>
-			<key>Type</key>
-			<string>static</string>
-		</dict>
+		<string>com.flixel.bundlebase</string>
+		<string>com.flixel.iosbase</string>
+        <string>com.flixel.flixelsrc</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
-	<key>Project</key>
-	<dict>
-        <key>SDK</key>
-		<string>iphoneos</string>
-        <key>SharedSettings</key>
-		<dict>
-			<key>ARCHS</key>
-			<string>$(ARCHS_STANDARD_32_BIT)</string>
-			<key>GCC_VERSION</key>
-			<string>com.apple.compilers.llvmgcc42</string>
-			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-			<string>latest_iphoneos</string>
-			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-			<string>iPhone Developer</string>
-		</dict>
-		<key>Configurations</key>
-		<dict>
-			<key>Release</key>
-			<dict>
-				<key>OTHER_CFLAGS</key>
-				<string>-DNS_BLOCK_ASSERTIONS=1</string>
-			</dict>
-        </dict>
-	</dict>
-	<key>Targets</key>
-	<array>
-		<dict>
-            <key>ProductType</key>
-			<string>com.apple.product-type.application</string>
-			<key>Frameworks</key>
-			<array>
-				<string>QuartzCore</string>
-				<string>OpenGLES</string>
-				<string>OpenAL</string>
-				<string>AudioToolbox</string>
-				<string>AVFoundation</string>
-				<string>UIKit</string>
-				<string>Foundation</string>
-				<string>CoreGraphics</string>
-			</array>
-			<key>SharedSettings</key>
-			<dict>
-				<key>GCC_THUMB_SUPPORT[arch=armv6]</key>
-				<string></string>
-				<key>OTHER_LDFLAGS</key>
-				<string>-lz</string>
-                <key>PRODUCT_NAME</key>
-                <string>$(TARGET_NAME)</string>
-                <key>USER_HEADER_SEARCH_PATHS</key>
-                <string>$(PROJECT_DIR)/flixel-ios/Headers</string>
-			</dict>
-			<key>Configurations</key>
-			<dict>
-				<key>Release</key>
-				<dict>
-					<key>VALIDATE_PRODUCT</key>
-					<string>YES</string>
-				</dict>
-			</dict>
-		</dict>
-	</array>
 	<key>Definitions</key>
 	<dict>
 		<key>Classes/AppDelegate.h</key>
@@ -139,8 +31,6 @@
 			</array>
 			<key>Path</key>
 			<string>Classes/AppDelegate.m</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Classes/UIImage+RIFAddition.h</key>
 		<dict>
@@ -161,8 +51,6 @@
 			</array>
 			<key>Path</key>
 			<string>Classes/UIImage+RIFAddition.m</string>
-			<key>TargetIndices</key>
-			<array/>
 		</dict>
 		<key>Info.plist</key>
 		<dict>
@@ -190,8 +78,12 @@
 			<array/>
 		</dict>
 	</dict>
-	<key>Description</key>
-	<string>This template provides a starting point for a game based on the Flixel iOS library.</string>
+    <key>Description</key>
+	<string>This template provides a starting point for an application that uses flixel for iOS.</string>
+	<key>Identifier</key>
+	<string>com.flixel.flixelOnlyIOSTemplate</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
 		<string>Info.plist</string>
@@ -202,9 +94,37 @@
 		<string>Classes/UIImage+RIFAddition.h</string>
 		<string>Classes/UIImage+RIFAddition.m</string>
 	</array>
-	<key>Platforms</key>
+    <key>Options</key>
 	<array>
-		<string>com.apple.platform.iphoneos</string>
+		<dict>
+			<key>Identifier</key>
+			<string>deviceFamily</string>
+			<key>Units</key>
+			<dict>
+				<key>iPad</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+					</dict>
+				</dict>
+				<key>iPhone</key>
+				<dict>
+					<key>Definitions</key>
+					<dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>"$(PROJECT_DIR)/$(PROJECT_NAME)/flixel-ios/Headers"</string>
+			</dict>
+		</dict>
 	</array>
 </dict>
 </plist>

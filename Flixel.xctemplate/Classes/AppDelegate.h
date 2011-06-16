@@ -1,6 +1,6 @@
 //
-//  CanabaltAppDelegate.h
-//  Canabalt
+//  AppDelegate.h
+//  ___PROJECTNAME___
 //
 //  Copyright Semi Secret Software 2009-2010. All rights reserved.
 //
