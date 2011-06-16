@@ -1,5 +1,5 @@
 //
-//  main.m
+//  ___PROJECTNAME___State.h
 //  ___PROJECTNAME___
 //
 //  Copyright Semi Secret Software 2009-2010. All rights reserved.
@@ -13,12 +13,9 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
-
-int main(int argc, char *argv[])
+@interface ___PROJECTNAME___State : FlxState
 {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
-    [pool release];
-    return retVal;
+    FlxText * helloText;
 }
+
+@end

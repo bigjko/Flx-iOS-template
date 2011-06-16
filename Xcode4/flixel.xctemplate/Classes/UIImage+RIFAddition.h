@@ -17,6 +17,6 @@
 
 @interface UIImage (RIFAddition)
 - (id)initWithContentsOfResolutionIndependentFile:(NSString *)path;
-+ (UIImage *) imageWithContentsOfResolutionIndependentFile:(NSString *)path;
-+ (UIImage *) resolutionIndependentImageNamed:(NSString *)name;
++ (UIImage *)imageWithContentsOfResolutionIndependentFile:(NSString *)path;
++ (UIImage *)resolutionIndependentImageNamed:(NSString *)name;
 @end

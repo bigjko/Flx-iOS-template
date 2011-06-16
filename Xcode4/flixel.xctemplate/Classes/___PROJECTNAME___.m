@@ -1,5 +1,5 @@
 //
-//  main.m
+//  ___PROJECTNAME___.m
 //  ___PROJECTNAME___
 //
 //  Copyright Semi Secret Software 2009-2010. All rights reserved.
@@ -13,12 +13,27 @@
 // THE SOFTWARE.
 //
 
-#import <UIKit/UIKit.h>
+#import "___PROJECTNAME___.h"
 
-int main(int argc, char *argv[])
+@implementation ___PROJECTNAME___
+
+- (id)init
 {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, @"AppDelegate");
-    [pool release];
-    return retVal;
+    BOOL tbZoom = NO;
+    if (FlxG.iPad || FlxG.retinaDisplay)
+        tbZoom = YES;
+    
+    if ((self = [super initWithOrientation:FlxGameOrientationLandscape
+                                     state:@"___PROJECTNAME___State"
+                                      zoom:1.0
+                      useTextureBufferZoom:tbZoom
+                                 modelZoom:1.0]))
+    {
+        if (FlxG.retinaDisplay)
+            self.frameInterval = 1;
+    }
+    
+    return self;
 }
+
+@end

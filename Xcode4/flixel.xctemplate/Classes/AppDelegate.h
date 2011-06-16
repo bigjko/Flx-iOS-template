@@ -20,8 +20,7 @@
 
 @interface AppDelegate : NSObject <UIApplicationDelegate>
 {
-  ___PROJECTNAME___ * game;
+    ___PROJECTNAME___ * game;
 }
 
 @end
-

@@ -12,6 +12,46 @@
 	<true/>
 	<key>Definitions</key>
 	<dict>
+        <key>Classes/___PROJECTNAME___.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/___PROJECTNAME___.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/___PROJECTNAME___.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/___PROJECTNAME___.m</string>
+		</dict>
+        <key>Classes/___PROJECTNAME___State.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/___PROJECTNAME___State.h</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/___PROJECTNAME___State.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+			</array>
+			<key>Path</key>
+			<string>Classes/___PROJECTNAME___State.m</string>
+		</dict>
 		<key>Classes/AppDelegate.h</key>
 		<dict>
 			<key>Group</key>
@@ -93,6 +133,10 @@
 		<string>Classes/AppDelegate.m</string>
 		<string>Classes/UIImage+RIFAddition.h</string>
 		<string>Classes/UIImage+RIFAddition.m</string>
+        <string>Classes/___PROJECTNAME___.h</string>
+        <string>Classes/___PROJECTNAME___.m</string>
+        <string>Classes/___PROJECTNAME___State.h</string>
+        <string>Classes/___PROJECTNAME___State.m</string>
 	</array>
     <key>Options</key>
 	<array>
