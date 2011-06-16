@@ -6,6 +6,10 @@
 	<string>com.flixel.base</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -55,61 +59,62 @@
 	<true/>
 	<key>Project</key>
 	<dict>
+        <key>SDK</key>
+		<string>iphoneos</string>
+        <key>SharedSettings</key>
+		<dict>
+			<key>ARCHS</key>
+			<string>$(ARCHS_STANDARD_32_BIT)</string>
+			<key>GCC_VERSION</key>
+			<string>com.apple.compilers.llvmgcc42</string>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>latest_iphoneos</string>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
+		</dict>
 		<key>Configurations</key>
 		<dict>
-			<key>Debug</key>
-			<dict>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<string>DEBUG</string>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-			</dict>
 			<key>Release</key>
-			<dict/>
-		</dict>
-		<key>SDK</key>
-		<string>iphoneos</string>
-		<key>SharedSettings</key>
-		<dict>
-			<key>GCC_C_LANGUAGE_STANDARD</key>
-			<string>gnu99</string>
-			<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-			<string>YES</string>
-			<key>GCC_WARN_UNUSED_VARIABLE</key>
-			<string>YES</string>
-		</dict>
+			<dict>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+			</dict>
+        </dict>
 	</dict>
 	<key>Targets</key>
 	<array>
 		<dict>
-			<key>Configurations</key>
-			<dict>
-                <key>Debug</key>
-                <dict>
-                    <key>GCC_OPTIMIZATION_LEVEL</key>
-                    <string>0</string>
-                    <key>GCC_PREPROCESSOR_DEFINITIONS</key>
-                    <string>DEBUG</string>
-                    <key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-                    <string>NO</string>
-                </dict>
-                <key>Release</key>
-                <dict/>
-			</dict>
-			<key>Name</key>
-			<string>___PACKAGENAME___</string>
+            <key>ProductType</key>
+			<string>com.apple.product-type.application</string>
+			<key>Frameworks</key>
+			<array>
+				<string>QuartzCore</string>
+				<string>OpenGLES</string>
+				<string>OpenAL</string>
+				<string>AudioToolbox</string>
+				<string>AVFoundation</string>
+				<string>UIKit</string>
+				<string>Foundation</string>
+				<string>CoreGraphics</string>
+			</array>
 			<key>SharedSettings</key>
 			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
+				<key>GCC_THUMB_SUPPORT[arch=armv6]</key>
+				<string></string>
 				<key>OTHER_LDFLAGS</key>
-				<string>-ObjC -all_load</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>USER_HEADER_SEARCH_PATHS</key>
-				<string>$(PROJECT_DIR)/flixel-ios/Headers</string>
+				<string>-lz</string>
+                <key>PRODUCT_NAME</key>
+                <string>$(TARGET_NAME)</string>
+                <key>USER_HEADER_SEARCH_PATHS</key>
+                <string>$(PROJECT_DIR)/flixel-ios/Headers</string>
+			</dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Release</key>
+				<dict>
+					<key>VALIDATE_PRODUCT</key>
+					<string>YES</string>
+				</dict>
 			</dict>
 		</dict>
 	</array>
